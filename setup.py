@@ -14,7 +14,7 @@ pinecone.init(
     environment="us-east1-gcp"
 )
 
-# connect to abstractive-question-an index we created
+# connect to science-bot index we created
 index_name = 'science-bot'
 index = pinecone.Index(index_name)
 
